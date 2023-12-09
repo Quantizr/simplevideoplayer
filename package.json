@@ -1,6 +1,7 @@
 {
   "name": "videoplayer",
   "version": "0.1.0",
+  "homepage": "https://quantizr.github.io/simplevideoplayer/",
   "private": true,
   "dependencies": {
     "react": "^16.13.1",
