@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { getAmplifier } from './volume';
 import { secondsToTime } from './time';
 import './CustomVideoControls.css';
@@ -9,17 +9,22 @@ function CustomVideoControls(props) {
   const [showVolume, setShowVolume] = useState(false);
   const [showVideoTime, setShowVideoTime] = useState(false);
   const [amplifier, setAmplifier] = useState(null);
+  const timeoutRef = useRef(null);
 
   const displayVolume = () => {
+    setShowVolume(false); //hacky way to get it to update each keypress
     setShowVolume(true);
-    setTimeout(() => {
+    clearTimeout(timeoutRef.current);
+    timeoutRef.current = setTimeout(() => {
       setShowVolume(false);
     }, 3000);
   };
 
   const displayVideoTime = () => {
+    setShowVideoTime(false); //hacky way to get it to update each keypress
     setShowVideoTime(true);
-    setTimeout(() => {
+    clearTimeout(timeoutRef.current);
+    timeoutRef.current = setTimeout(() => {
       setShowVideoTime(false);
     }, 3000);
   };
@@ -93,10 +98,10 @@ function CustomVideoControls(props) {
 
       e.preventDefault();
       if (e.keyCode === FORWARD_KEY) {
-        // move forward by 0.5 seconds
+        // move forward by 5 seconds
         video.currentTime = Math.min(video.duration, video.currentTime + 5);
       } else if (e.keyCode === BACKWARD_KEY) {
-        // move backward by 0.5 seconds
+        // move backward by 5 seconds
         video.currentTime = Math.max(0, video.currentTime - 5);
       }
 
