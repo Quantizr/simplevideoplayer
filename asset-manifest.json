@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c073b069.css",
-    "main.js": "/static/js/main.3f82e987.js",
-    "static/media/playicon.png": "/static/media/playicon.6c5fd122f7b25c645020.png",
-    "index.html": "/index.html",
-    "static/media/volume-up.svg": "/static/media/volume-up.891d57cae62aa28f91359b659621b4b2.svg",
-    "static/media/volume-mute.svg": "/static/media/volume-mute.8a42be19059f0877de4e5d5916a0066f.svg",
-    "static/media/compress.svg": "/static/media/compress.207090ea4e51ed6da7f0d2be765410df.svg",
-    "static/media/expand.svg": "/static/media/expand.90d39999ddaa8725d24bfb8437538296.svg",
-    "static/media/pause.svg": "/static/media/pause.d50b779d027faaf1c4a2881f76055d21.svg",
-    "static/media/play.svg": "/static/media/play.8c6e7fce90a794fc46a3d1abaf197aaa.svg",
-    "main.c073b069.css.map": "/static/css/main.c073b069.css.map",
-    "main.3f82e987.js.map": "/static/js/main.3f82e987.js.map"
+    "main.css": "/simplevideoplayer/static/css/main.c073b069.css",
+    "main.js": "/simplevideoplayer/static/js/main.8d260ab1.js",
+    "static/media/playicon.png": "/simplevideoplayer/static/media/playicon.6c5fd122f7b25c645020.png",
+    "index.html": "/simplevideoplayer/index.html",
+    "static/media/volume-up.svg": "/simplevideoplayer/static/media/volume-up.891d57cae62aa28f91359b659621b4b2.svg",
+    "static/media/volume-mute.svg": "/simplevideoplayer/static/media/volume-mute.8a42be19059f0877de4e5d5916a0066f.svg",
+    "static/media/compress.svg": "/simplevideoplayer/static/media/compress.207090ea4e51ed6da7f0d2be765410df.svg",
+    "static/media/expand.svg": "/simplevideoplayer/static/media/expand.90d39999ddaa8725d24bfb8437538296.svg",
+    "static/media/pause.svg": "/simplevideoplayer/static/media/pause.d50b779d027faaf1c4a2881f76055d21.svg",
+    "static/media/play.svg": "/simplevideoplayer/static/media/play.8c6e7fce90a794fc46a3d1abaf197aaa.svg",
+    "main.c073b069.css.map": "/simplevideoplayer/static/css/main.c073b069.css.map",
+    "main.8d260ab1.js.map": "/simplevideoplayer/static/js/main.8d260ab1.js.map"
   },
   "entrypoints": [
     "static/css/main.c073b069.css",
-    "static/js/main.3f82e987.js"
+    "static/js/main.8d260ab1.js"
   ]
 }
