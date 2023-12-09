@@ -63,7 +63,7 @@ const VideoControls = (props) => {
 
             timeoutHandle = setTimeout(hideControls, 10000);
         })
-
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [video, videoContainer]);
 
     const showControls = () => {

@@ -127,6 +127,7 @@ function CustomVideoControls(props) {
     return () => {
       document.removeEventListener('keydown', playOrPause);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [video])
 
   if (showVolume) {
